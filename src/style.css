@@ -1,0 +1,37 @@
+body {
+  max-width: 900px;
+  left: 30px;
+}
+p {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+}
+form {
+  font-family: "Oswald", sans-serif;
+}
+.container {
+  border: 1px solid #dcdcdc;
+  border-radius: 25px;
+  margin: 50px 50px;
+  padding: 40px 40px 40px 40px;
+  left: 50px;
+}
+.riga,
+.temperature,
+.tue,
+.thu,
+.wed,
+.fri,
+.sat {
+  font-weight: bold;
+}
+.tue,
+.thu,
+.wed,
+.fri,
+.sat {
+  font-family: "Oswald", sans-serif;
+}
+#current-day-time {
+  font-family: "Oswald", sans-serif;
+}
