@@ -10,10 +10,9 @@ form {
   font-family: "Oswald", sans-serif;
 }
 .container {
-  display:block
   border: 1px solid #dcdcdc;
   border-radius: 25px;
-  margin: 0 auto;
+  margin: 50px 50px;
   padding: 40px 40px 40px 40px;
   left: 50px;
 }
