@@ -31,6 +31,9 @@ function showTemperature(response) {
   let wind = Math.round(response.data.wind.speed);
   let windNow = document.querySelector("#wind");
   windNow.innerHTML = `${wind} m/s`;
+  let iconElement=document.querySelector("#current-weather-icon");
+  iconElement.setAttribute(
+    "src",)= `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
 }
 
 function searchCity(event) {
