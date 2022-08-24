@@ -1,7 +1,3 @@
-body {
-  max-width: 900px;
-  left: 30px;
-}
 p {
   font-family: "Oswald", sans-serif;
   font-size: 16px;
@@ -9,12 +5,13 @@ p {
 form {
   font-family: "Oswald", sans-serif;
 }
-.container {
+.app {
+  max-width: 700px;
   border: 1px solid #dcdcdc;
   border-radius: 25px;
-  margin: 50px 50px;
+  margin: 50px auto;
   padding: 40px 40px 40px 40px;
-  left: 50px;
+  left: 100px;
 }
 .riga,
 .temperature,
@@ -34,4 +31,8 @@ form {
 }
 #current-day-time {
   font-family: "Oswald", sans-serif;
+}
+#git-hub-link {
+  display: block;
+  text-align: center;
 }
