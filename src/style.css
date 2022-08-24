@@ -12,6 +12,7 @@ form {
   margin: 50px auto;
   padding: 40px 40px 40px 40px;
   left: 100px;
+  font-family: "Oswald", sans-serif;
 }
 .riga,
 .temperature,
@@ -35,4 +36,5 @@ form {
 #git-hub-link {
   display: block;
   text-align: center;
+  font-family: "Oswald", sans-serif;
 }
