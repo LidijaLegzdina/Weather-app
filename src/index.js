@@ -11,6 +11,9 @@ let days = [
 let day = days[now.getDay()];
 let hours = now.getHours();
 let minutes = now.getMinutes();
+if (minutes < 10) {
+  minutes = `0${minutes}`;
+}
 let dayTime = `${day} ${hours}:${minutes}`;
 let currentDayTime = document.querySelector("#current-day-time");
 currentDayTime.innerHTML = dayTime;
