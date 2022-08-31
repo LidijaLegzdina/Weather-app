@@ -78,5 +78,5 @@ function searchCity(event) {
   axios.get(`${apiUrl}&appid=${apiKey}`).then(showTemperature);
 }
 
-let formCity = document.querySelector("#change-city-btn");
+let formCity = document.querySelector("#change-city");
 formCity.addEventListener("submit", searchCity);
