@@ -41,3 +41,10 @@ form {
 #current-weather-icon {
   max-width: 40px;
 }
+#weather-forecast-icon,
+#weather-forecast-icon-2,
+#weather-forecast-icon-3,
+#weather-forecast-icon-4,
+#weather-forecast-icon-5 {
+  max-width: 25px;
+}
