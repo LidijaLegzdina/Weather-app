@@ -51,6 +51,7 @@ function displayForecast(response) {
             <span class="weather-forecast-temp-min">
               ${Math.round(forecastDay.temp.min)}°
             </span>
+            </div>
            `;
     }
   });
