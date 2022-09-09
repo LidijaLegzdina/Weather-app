@@ -48,3 +48,6 @@ form {
 #weather-forecast-icon-5 {
   max-width: 25px;
 }
+.weather-forecast-temp-min {
+  color: gray;
+}
